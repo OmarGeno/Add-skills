@@ -1,0 +1,133 @@
+body {
+    background-color: rgba(255, 255, 255, 0.933);
+  }
+  
+  .my-container {
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px auto;
+    animation: background 8s alternate infinite;
+    border-style: solid;
+    border-width: 3px;
+    background-color: rgb(255, 249, 241);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  @keyframes background {
+    0% {
+      border-image: linear-gradient(to bottom, rgb(174, 0, 0), rgb(0, 0, 0)) 1
+        100%;
+    }
+    50% {
+      border-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(79, 204, 235)) 1
+        100%;
+    }
+    100% {
+      border-image: linear-gradient(to bottom, rgb(140, 1, 183), rgb(0, 0, 0)) 1
+        100%;
+    }
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+  }
+
+  
+  .text-area {
+    background-color: rgb(157, 203, 231);
+    resize: vertical;
+    margin: 10px;
+    padding: 20px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .skill {
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    padding: 15px 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px 100px 50px 0px rgb(195, 255, 244);
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+  }
+
+  .skill-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+   
+  .input:hover {
+    box-shadow: inset 300px 0 10px 0 rgb(63, 0, 63);
+    color: white;
+    border: 1px solid #ffa8a8;
+    transition: all 0.8s;
+  }
+
+  .standard-btn, .del, .edit {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    background-color: azure;
+    border: black 1px solid;
+    border-radius: 3px;
+    margin: 10px 0;
+    width: 150px;
+    height: 40px;
+  }
+
+  .standard-btn > a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .standard-btn:hover > a {
+    text-decoration: none !important;
+    color: white; 
+  }
+
+  .standard-btn:hover {
+    text-decoration: none !important;
+    box-shadow: inset 300px 0 10px 0 rgb(63, 0, 63);
+    color: white;
+    border: 1px solid #ffa8a8;
+    transition: all 0.8s;
+  }
+  .del:hover {
+    text-decoration: none !important;
+    box-shadow: inset 300px 0 10px 0 rgb(194, 34, 34);
+    color: white;
+    transition: all 1.1s;
+  }
+  .edit:hover {
+    text-decoration: none !important;
+    box-shadow: inset 200px 0 10px 0 rgb(78, 255, 223);
+    color: black;
+    border: 1px solid black;
+    transition: all 1.1s;
+  }
+
+  .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .my-bg {
+    background-color: #ffffff;
+    border: 1px solid black;
+  }
