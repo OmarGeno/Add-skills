@@ -6,5 +6,5 @@
 
 This project can be nested within an apllication.
 
-[url=https://ibb.co/G7qMgjH][img]https://i.ibb.co/G7qMgjH/skill3.png[/img][/url]
+[img][https://i.ibb.co/G7qMgjH/skill3.png]
 
